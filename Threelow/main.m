@@ -7,11 +7,32 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Dice.h"
+#import "GameController.h"
 
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
+    
+    GameController *gameController = [[GameController alloc] init];
+    
+//    [gameController rollDice];
+    
+    
+    
+    [gameController holdDice:@[@1,@3]];
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
     return 0;
 }
